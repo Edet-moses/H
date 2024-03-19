@@ -6,7 +6,7 @@ dotenv.config();
 async function connectDB() {
   try {
     await mongoose.connect(
-      "mongodb+srv://edetmoses213:mYaBAePZMxuk35ev@cluster0.ohztd28.mongodb.net/"
+      "mongodb+srv://edetmoses213:Moureen12345@cluster0.ohztd28.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     );
     console.log('Connected to MongoDB');
   } catch (error) {
